@@ -1,0 +1,35 @@
+Spotter — Lesson 1
+Name: Emonie Lewis
+
+(OUTLINE: fill in the [ ... ] parts, then delete this line.
+This file is cross-checked: your first half must match your spotter's second half,
+so agree on the 5 items with them before submitting.)
+
+============================================================
+FIRST HALF — My spotter: [ Spotter's full name ]
+5 specific things my spotter helped me learn
+============================================================
+1. [ ... ]
+2. [ ... ]
+3. [ ... ]
+4. [ ... ]
+5. [ ... ]
+
+============================================================
+SECOND HALF — I spot for: [ Person's full name ]
+5 things I learned and shared with them
+============================================================
+1. [ ... ]
+2. [ ... ]
+3. [ ... ]
+4. [ ... ]
+5. [ ... ]
+
+(Ideas from my own runs, if they fit what you actually shared:
+ - A path that starts with / is absolute; opt/... without / fails
+ - ./cobol/bin/... only works from /opt/balerica-bank
+ - Activate the venv (source venv/bin/activate) before uvicorn
+ - The server clock is UTC, so boot time can look like "tomorrow"
+ - Only 3 lab-run screenshots per local day count
+ - payment_post writes to payments.dat but doesn't change the balance in accounts.dat
+ - Clone only on EC2: no push, no GitHub token on the server)

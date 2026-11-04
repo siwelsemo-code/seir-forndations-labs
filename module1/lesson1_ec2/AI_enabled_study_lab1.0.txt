@@ -1,0 +1,84 @@
+AI-Enabled Study — Lab 1.0
+Name: Emonie Lewis
+
+(OUTLINE: write one paragraph per topic, at least 5 sentences each.
+Every topic needs 3 sources: 1 reading + 1 video + your AI.
+Every number needs a source and a year, e.g. "(Wikipedia: COBOL, 2026)".
+Check the numbers the AI gives you against the reading; if they disagree, say so.
+Delete this block when done.)
+
+============================================================
+1. Databases
+============================================================
+Sources:
+  Reading: AWS — Relational vs Non-relational Databases
+  Video:   IBM Technology — SQL vs. NoSQL
+  AI:      [ AI name + share link or "see transcript" ]
+
+Cover: database types; how to choose one; SQL vs NoSQL in the cloud;
+the de facto standard databases; PostgreSQL strengths and weaknesses.
+
+Paragraph:
+[ ... ]
+
+============================================================
+2. COBOL
+============================================================
+Sources:
+  Reading: Wikipedia — COBOL
+  Video:   Fireship — COBOL in 100 Seconds
+  AI:      [ ... ]
+
+Cover: who introduced it; how many systems use it today (number + source + year);
+value of those systems (number + source + year); average engineer age (number + source + year);
+effort to replace it. Optional: tie it to what you saw in the lab (fixed-width files, return codes).
+
+Paragraph:
+[ ... ]
+
+============================================================
+3. SWIFT (the payment network, not Apple's Swift)
+============================================================
+Sources:
+  Reading: Wikipedia — SWIFT
+  Video:   a16z — Foreign Exchange 101
+  AI:      [ ... ]
+  Date check: Swift ISO 20022 FAQs
+
+Cover: who introduced it; how it's used; competitors; effort to replace it.
+ISO 20022 deep dive: MT103 / MT202 vs pacs.008 / pacs.009, and the end-of-coexistence
+date (confirm the date on the Swift FAQ page and cite it).
+
+Paragraph:
+[ ... ]
+
+============================================================
+4. APIs
+============================================================
+Sources:
+  Reading: MDN — An overview of HTTP
+  Video:   IBM Technology — What is a REST API?
+  AI:      [ ... ]
+
+Cover: who introduced it; how many systems use it (number + source + year); how it's used;
+competitors (e.g. SOAP, GraphQL, gRPC); importance to AI adoption; difficulty securing it.
+Next-lab prep: GET vs POST, JSON, and why APIs must validate incoming data
+(example from the lab: payment_post rejected a 0.00 amount but accepted a duplicate TXN ID).
+
+Paragraph:
+[ ... ]
+
+============================================================
+5. Intersection of COBOL, SWIFT, APIs & databases
+============================================================
+Sources:
+  Reading: US GAO (2025) — Modernizing Critical Decades-Old Legacy Systems
+  Video:   Modernizing COBOL: From Mainframe to API
+  AI:      [ ... ]
+
+Cover: why this matters to the financial, medical, academic and government industries.
+Idea: the Balerica lab is a small model of this (a COBOL ledger behind a FastAPI web app,
+with data exported from a database).
+
+Paragraph:
+[ ... ]

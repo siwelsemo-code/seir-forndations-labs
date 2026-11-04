@@ -1,0 +1,51 @@
+AI Review — Lesson 1 Runbook
+Name: Emonie Lewis
+AI used: Claude (Claude Code desktop app)
+Conversation: [paste share link here]  OR  see ai_review_transcript_EmonieLewis.txt
+
+(OUTLINE: replace every [ ... ] with your own words, then delete this line.
+"How I checked it" is graded most heavily: say what YOU ran or read, and what you saw.
+Never paste keys, passwords, or tokens.)
+
+------------------------------------------------------------
+Question 1: What does the git clone command do?
+AI's answer (my words): [ ... ]
+How I checked it: [ e.g. I ran git clone on Run 4, then ls and saw the module1 folder.
+                    The output said "Receiving objects: 100% (62/62)". See git_clone.jpg. ]
+
+------------------------------------------------------------
+Question 2: How do I get the COBOL return code screenshots?
+AI's answer (my words): [ ... ]
+How I checked it: [ e.g. I ran each command followed by echo $? and saw 0, 4, 8 and 12.
+                    See cobol_rc0.jpg through cobol_rc12.jpg. ]
+
+------------------------------------------------------------
+Question 3: What does "decode the ledger by hand" mean?
+AI's answer (my words): [ ... ]
+How I checked it: [ e.g. I ran grep -i alice data/accounts.dat | cut -c45-56, got 000000500000,
+                    and compared it with account_lookup 100001, which showed BALANCE=5000.00. ]
+
+------------------------------------------------------------
+Question 4: Do I need to decode the entire journal, or just paste the lines?
+AI's answer (my words): [ ... ]
+How I checked it: [ e.g. I re-read the homework bullet list for the COBOL practice section. ]
+
+------------------------------------------------------------
+Question 5: Why is the boot time from uptime -s a different day than my screenshot?
+AI's answer (my words): [ ... ]
+How I checked it: [ e.g. I compared the TZ='America/Chicago' date line with the uptime -s line
+                    in lab1_run3.jpg; the server clock is UTC. ]
+
+------------------------------------------------------------
+(Optional extra questions: how to run the Claude CLI in Git Bash; why uvicorn said
+"command not found"; what FILE-STATUS=35 means.)
+
+============================================================
+Where the AI was wrong, vague, or out of date
+============================================================
+1. [ e.g. The AI told me I had "1 more run today" when I had already used my 3 lab-run
+      screenshots for that day. I pointed out I had run three instances, and it corrected itself.
+      How I caught it: I counted my own screenshots for that date. ]
+
+2. [ e.g. The AI saved two quiz screenshots as Section 21 and Section 23, but they were
+      the wrong quizzes. How I caught it: the section name in the Udemy sidebar didn't match. ]
